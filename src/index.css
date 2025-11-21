@@ -1,0 +1,10 @@
+@import "tailwindcss"
+
+html {
+  @apply text-base; /* 16px (default) */
+}
+
+/* Ejemplo: hacer toda la app un poco más grande */
+body {
+  @apply text-lg; /* 18px */
+}
