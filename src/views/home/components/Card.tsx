@@ -24,9 +24,7 @@ export default function Card({ image, flipped, disabled, onClick }: CardProps) {
           src={image}
           className="absolute inset-0 w-full h-full object-cover rounded-xl backface-hidden rotate-y-180"
         />
-        
       </div>
-
     </div>
   );
 }
